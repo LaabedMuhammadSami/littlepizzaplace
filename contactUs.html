@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang = "en">
+<html>
+    <head>
+        <title>The Little Pizza Place Home Page.</title>
+        <link rel="icon" href="img/LPP-log.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="author" content="The Little Pizza Place.">
+        <meta name="description" content="A website dedicated to help clients know about The Little Pizza Place restaurant and their menu.">
+        <meta name="keywords" content="Pizza, pizza, LLP, The Little Pizza Place, The LLP, restaurant, fast food, food, contact, support, client">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="refresh" content="60">
+        <style>
+            a{color : purple}
+            a:hover, a:active{color: blue}
+
+            table, tr, th, td, caption
+            {
+                border: 1px solid #eee;
+                font-family: 'Courier New', 'Courier New', Courier, monospace;
+                border-collapse: collapse;
+                padding: .5rem
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Contact us!</h1>
+            <figure>
+                <img src="img/LLP-restaurant.jpg" alt="LPP's restaurant" width="600" height="450" loading="lazy">
+                <figcaption>
+                    Little Pizza Place Pizza restaurant.
+                </figcaption>
+            </figure>
+            <article id="navigation">
+                <h2>General navigation:</h2>
+                <nav>
+                    <ul>
+                        <li>
+                            <details>
+                                <summary><a href="index.html">Home.</a></summary>
+                                <ul>
+                                    <li>
+                                        <a href="home.html#about"> About the <strong><abbr title="Little Pizza Place"> LLP</abbr></strong>.</a>
+                                    </li>
+                                    <li>
+                                        <a href="#fun-facts">Pizza fun facts.</a>
+                                    </li>
+                                    <li>
+                                        <a href="#menu">Our menu.</a>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <a href="workingHours.html">Our working hours.</a>
+                        </li>
+                        <li>
+                            <details>
+                                <summary><a href="contactUs.html">Contact us.</a></summary>
+                                <ul>
+                                    <li>
+                                        <a href="#form">Our form.</a>
+                                    </li>
+                                    <li>
+                                        <a href="#location">Our location.</a>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </nav>
+            </article>
+        </header>
+        <hr>
+        <main>
+            <article id="contact">
+                <h2>How to contact us?</h2>
+                <p>You can contact us by filling the following form with your own personal informations, then send<br> 
+                    a message containing your notes and feedback.</p>
+                <section id="form">
+                    <h3>Our form</h3>
+                    <form action="https://httpbin.org/get" method="get">
+                        <fieldset>
+                            <legend>Your personal informations and message: </legend>
+                            <p>
+                                <label for="firstName">First Name: </label>
+                                <input type="text" id="firstName" name="firstName" placeholder="Farah" required>
+                            </p>
+                            <p>
+                                <label for="lastName">First Name: </label>
+                                <input type="text" id="lastName" name="lastName" placeholder="Laabed" required>
+                            </p>
+                            <p>
+                                <label for="phoneNumber">Phone Number: </label>
+                                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="0774 96 67 62" required>
+                            </p>
+                            <textarea name="message" id="message" cols="60" rows="20" placeholder="Type your message here..."></textarea>
+                        </fieldset>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </form>
+                </section>
+                <section id="location">
+                    <h2>Our location</h2>
+                    <address>
+                        &nbsp;&nbsp;&nbsp;&nbsp;Street: 1 rue Hamad Ibn Ziri<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;City: Alger Centre<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;State/province/area: Alger Centre<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;Phone Number: <a href="tel:+5555555555">+213 0774 96 67 62</a>.
+                    </address>
+                </section>
+            </article><br>
+            <a href="#">Back to top.</a>
+        </main>
+        <hr>
+        <footer>
+            &lt;&lt;&lt;&copy;The Little Pizza Place&gt;&gt;&gt;
+        </footer>
+    </body>
+</html>
